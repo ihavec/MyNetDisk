@@ -1,3 +1,8 @@
+支持命令：
+"signup", "signin", "cd", "ls", "puts", "gets", "remove", "pwd", "mkdir", "rmdir", "rename", "logout", "quit", "clear"
+编译：
+./client/make
+./server/make
 建表语句:
 
 Ftplog      CREATE TABLE Ftplog (   uid int(11) NOT NULL,   command char(32) NOT NULL,   parameter char(64) DEFAULT NULL,   time timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
